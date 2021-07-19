@@ -1,0 +1,19 @@
+
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8îä•‚ª/
+K
+java:S1128"0Remove this unused import 'java.util.Hashtable'.(Œ»ÏÊüÿÿÿÿ
+J
+java:S6212	"/Declare this local variable with "var" instead.(†—£¥úÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(¡õ›İ
+E
+java:S6212"/Declare this local variable with "var" instead.(æÕ¿¼
+D
+java:S6212"/Declare this local variable with "var" instead.(Ÿã‚}
+E
+java:S6212"/Declare this local variable with "var" instead.(ŸğÑµ
+E
+java:S6212"/Declare this local variable with "var" instead.(ŸğÑµ
+K
+java:S1940")Use the opposite operator ("!=") instead.(Ø¡±Çüÿÿÿÿ8–È‚ª/

@@ -1,0 +1,15 @@
+
+m	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+n	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ŸğÑµ
+J
+java:S6212"/Declare this local variable with "var" instead.(Èİ£Ğüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÛĞƒÉ
+h
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(…«¨
+5
+java:S1659"Declare "k" on a separate line.(“Æ¤²
+E
+java:S6212"/Declare this local variable with "var" instead.(ŸğÑµ
+E
+java:S6212"/Declare this local variable with "var" instead.(ŸğÑµ

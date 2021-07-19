@@ -1,0 +1,18 @@
+
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8´£ÙÕª/
+J
+java:S6212
+"/Declare this local variable with "var" instead.(†ÑÖúÿÿÿÿ
+S
+java:S1197
+"8Move the array designator from the variable to the type.(†ÑÖúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(àºíÊ
+E
+java:S6212"/Declare this local variable with "var" instead.(Óµ³©
+J
+java:S6212"/Declare this local variable with "var" instead.(ÙôİÅûÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ëÈ‡Á

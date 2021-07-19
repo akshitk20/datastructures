@@ -1,0 +1,26 @@
+
+E
+java:S6212	"/Declare this local variable with "var" instead.(÷Ù±†
+E
+java:S6212"/Declare this local variable with "var" instead.(÷Ñ¶þ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ô¬‰†
+E
+java:S6212"/Declare this local variable with "var" instead.(—·ùð
+E
+java:S6212"/Declare this local variable with "var" instead.(æÕ¿¼
+J
+java:S6212"/Declare this local variable with "var" instead.(ØÕ—©ýÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(èŽê»
+J
+java:S6212""/Declare this local variable with "var" instead.(‰®ö¶üÿÿÿÿ
+E
+java:S6212#"/Declare this local variable with "var" instead.(Ê òÅ
+o
+java:S3012%"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ª£¬Ç
+J
+java:S6212$"/Declare this local variable with "var" instead.(ØÕ—©ýÿÿÿÿ
+E
+java:S6212+"/Declare this local variable with "var" instead.(ÿýÙŽ
+E
+java:S62121"/Declare this local variable with "var" instead.(Óýä™
