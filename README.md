@@ -1,2 +1,2 @@
 # datastructures
-Commonly Used Data Structures implementation
+Commonly Used Data Structures And Algorithms implementation
