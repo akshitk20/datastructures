@@ -7,7 +7,7 @@ import java.util.List;
 public class Subsets {
     static List<List<Integer>> result = new ArrayList<>();
     public static void main(String[] args) {
-        int[] nums = {0};
+        int[] nums = {1,2,2};
         List<Integer> list = new ArrayList<>();
         setSubsets(nums,list);
         System.out.println(result);
