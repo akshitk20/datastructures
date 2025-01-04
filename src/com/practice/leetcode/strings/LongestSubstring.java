@@ -7,6 +7,7 @@ public class LongestSubstring {
         String s = "pwwkew"; //pwwkew abcabcbb
         System.out.println(lengthOfLongestSubstring(s));
     }
+    // sliding-window
     public static int lengthOfLongestSubstring(String s) {
         if(s.length() == 0)
             return 0;
@@ -27,6 +28,31 @@ public class LongestSubstring {
         return max;
 
 
+    }
+
+    //brute force
+    public int lengthOfLongestSubstringBF(String s) {
+        if (s.isEmpty())
+            return 0;
+        System.out.println(s.length());
+        int ans = 1;
+        for (int i = 0 ; i < s.length() ; i++) {
+            for (int j = i+1 ; j < s.length() ; j++) {
+                if (areDistinct(s, i, j))
+                    ans = Math.max(ans, (j-i+1));
+            }
+        }
+        return ans;
+    }
+
+    public boolean areDistinct(String s, int i, int j) {
+        boolean[] visited = new boolean[26];
+        for (int k = i ; k <= j ; k++) {
+            if (visited[s.charAt(k) - 'a'])
+                return false;
+            visited[s.charAt(k) - 'a'] = true;
+        }
+        return true;
     }
 
 }
