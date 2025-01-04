@@ -19,13 +19,14 @@ public class Intersection {
             }
         }
 
-        int []arr = new int[arrayList.size()];
-        int k =0;
-        for (int i: arrayList){
-            arr[k] = i;
-            k++;
-        }
-
-        return arr;
+//        int []arr = new int[arrayList.size()];
+//        int k =0;
+//        for (int i: arrayList){
+//            arr[k] = i;
+//            k++;
+//        }
+//
+//        return arr;
+        return hashSet.stream().mapToInt(Integer::intValue).toArray();
     }
 }
