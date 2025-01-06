@@ -28,6 +28,6 @@ public class ShiftingLettersII2381_5 {
 
         return result.toString();
     }
-    
+
 
 }
