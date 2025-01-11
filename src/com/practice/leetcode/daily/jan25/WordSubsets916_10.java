@@ -33,6 +33,7 @@ public class WordSubsets916_10 {
         return result;
     }
 
+    // todo: debug this
     public static void main(String[] args) {
         String[] words1 = new String[] {"amazon","apple","facebook","google","leetcode"};
         String[] words2 = new String[] {"e","o"};
