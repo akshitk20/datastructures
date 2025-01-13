@@ -16,15 +16,17 @@ public class ScoreOfParenthesis {
             if(ch == '('){
                 stack.push(-1);
             }else{
+                // balanced with no dependency () case
                 if(stack.peek() == -1){
                     stack.pop();
                     stack.push(1);
                 }else {
+                    // balanced with some dependency need to add till -1  and then double it
                     int val = 0;
                     while (stack.peek() != -1){
                         val+=stack.pop();
                     }
-                    stack.pop();
+                    stack.pop(); // remove the -1
                     stack.push(2*val);
                 }
             }
