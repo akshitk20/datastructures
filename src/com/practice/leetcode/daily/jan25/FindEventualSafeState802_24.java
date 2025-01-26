@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class FindEventualSafeState802_24 {
-    // O(V+E) 
+    // O(V+E) todo: redo this after learning graph
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int n = graph.length;
         int[] indegree = new int[n];
