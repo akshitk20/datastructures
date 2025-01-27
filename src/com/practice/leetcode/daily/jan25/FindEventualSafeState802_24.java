@@ -1,9 +1,6 @@
 package com.practice.leetcode.daily.jan25;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class FindEventualSafeState802_24 {
     // O(V+E) todo: redo this after learning graph
@@ -11,6 +8,8 @@ public class FindEventualSafeState802_24 {
         int n = graph.length;
         int[] indegree = new int[n];
         List<List<Integer>> adj = new ArrayList<>();
+        int[] arr = new int[0];
+        Map<Integer, Integer> map = new HashMap<>();
 
         for (int i = 0; i < n; i++) {
             adj.add(new ArrayList<>());
