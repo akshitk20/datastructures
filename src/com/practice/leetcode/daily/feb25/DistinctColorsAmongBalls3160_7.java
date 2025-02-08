@@ -1,7 +1,6 @@
 package com.practice.leetcode.daily.feb25;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class DistinctColorsAmongBalls3160_7 {
     // TC : O(N) SC: O(N+M)
