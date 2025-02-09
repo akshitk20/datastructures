@@ -1,10 +1,8 @@
 package com.practice.leetcode.daily.feb25;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeSet;
+import java.util.*;
 
-public class DesignNumberContainerSystem2349_9 {
+public class DesignNumberContainerSystem2349_8 {
     Map<Integer, TreeSet<Integer>> map = new HashMap<>();
     Map<Integer, Integer> numberMap = new HashMap<>();
     /*
@@ -12,6 +10,7 @@ public class DesignNumberContainerSystem2349_9 {
     * The change operation involves updating two maps (indexToNumbers and numberToIndices) and performing operations on a set.
     * Checking and updating the maps takes O(1) time on average, but the set operations (adding or removing an index) take O(logk) time,
     * where k is the number of indices associated with a number. In the worst case, k can be n, so the change operation is O(logn).
+    *
     * The find operation is efficient because it only requires checking if a number exists in the set map (which is O(1)) and retrieving
     * the smallest index from the set (which is also O(1) due to the sorted nature of set). Thus, the find operation is O(1).
     *
