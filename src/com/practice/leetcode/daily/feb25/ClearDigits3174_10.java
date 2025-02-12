@@ -1,5 +1,6 @@
 package com.practice.leetcode.daily.feb25;
 
+import java.util.ArrayList;
 import java.util.Stack;
 
 public class ClearDigits3174_10 {
