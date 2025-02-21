@@ -1,6 +1,7 @@
 package com.practice.basics.backtracking;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class SudokuSolver {
     public static void main(String[] args) {
@@ -47,7 +48,6 @@ public class SudokuSolver {
             if(board[row][i] == val)
                 return false;
         }
-
         for(int i = 0 ; i < board.length ; i++){
             if(board[i][col] == val)
                 return false;
