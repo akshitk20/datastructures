@@ -1,5 +1,7 @@
 package com.practice.leetcode.daily.mar25;
 
+import jdk.internal.net.http.common.Pair;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -19,7 +21,7 @@ public class ClosestPrimeNumbers2523_7 {
                 primeNumbers.add(num);
             }
         }
-
+        Pair<Integer,Integer> pair = new Pair<>(10,10);
         // Step 2: Find the closest prime pair
         if (primeNumbers.size() < 2) return new int[] { -1, -1 }; // Less than two primes available
 
