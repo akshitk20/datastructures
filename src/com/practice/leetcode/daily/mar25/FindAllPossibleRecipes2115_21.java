@@ -4,6 +4,7 @@ import java.util.*;
 
 public class FindAllPossibleRecipes2115_21 {
     // TC : O(no of recipes+ingredients+supplies)
+    // todo: after learning graph
     public List<String> findAllRecipes(
             String[] recipes,
             List<List<String>> ingredients,
@@ -30,7 +31,7 @@ public class FindAllPossibleRecipes2115_21 {
             checkRecipe(
                     recipe,
                     ingredients,
-                    new HashSet<String>(),
+                    new HashSet<>(),
                     canMake,
                     recipeToIndex
             );
