@@ -1,7 +1,9 @@
 package com.practice.leetcode.daily.mar25;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.PriorityQueue;
 
 class DisjointSet {
     int[] parent;
@@ -40,7 +42,6 @@ public class CountNoOfCompleteComponents2685_22 {
         for (int[] edge : edges) {
             ds.unionBySize(edge[0], edge[1]);
         }
-
         // count edges for each component
         for (int[] edge : edges) {
             int root1 = ds.findParent(edge[0]);
@@ -49,7 +50,6 @@ public class CountNoOfCompleteComponents2685_22 {
                 map.put(root1, map.getOrDefault(root1,0)+1);
             }
         }
-
         // check if each component is complete
         int count = 0;
         for (int vertex = 0 ; vertex < n ; vertex++) {
