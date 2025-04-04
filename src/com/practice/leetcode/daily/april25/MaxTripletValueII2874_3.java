@@ -3,6 +3,7 @@ package com.practice.leetcode.daily.april25;
 public class MaxTripletValueII2874_3 {
 
     // TC : O(N)
+    // todo: redo after doing greedy
     public long maximumTripletValue(int[] nums) {
         long ans = 0;
         long prefixMax = nums[0];
