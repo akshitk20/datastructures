@@ -19,7 +19,7 @@ public class LCAOfDeepestLeaves1123_4 {
         }
     }
 
-    // BFS + LCA : TC : O(H) + O(N)
+    // BFS + LCA : TC : O(N) + O(N) : each node is visited once
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
