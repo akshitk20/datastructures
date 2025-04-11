@@ -3,6 +3,7 @@ package com.practice.leetcode.daily.april25;
 import java.util.Arrays;
 
 public class CountPowerfulIntegers2999_10 {
+    // todo : donot retry very hard
     public long numberOfPowerfulInt(long start, long finish, int limit, String s) {
         String low = Long.toString(start);
         String high = Long.toString(finish);
