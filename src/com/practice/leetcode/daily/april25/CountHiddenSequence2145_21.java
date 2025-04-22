@@ -1,5 +1,7 @@
 package com.practice.leetcode.daily.april25;
 
+import java.util.Collections;
+
 public class CountHiddenSequence2145_21 {
 
     public int numberOfArrays(int[] differences, int lower, int upper) {
