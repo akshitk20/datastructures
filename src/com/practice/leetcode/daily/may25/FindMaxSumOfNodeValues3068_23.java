@@ -8,7 +8,9 @@ public class FindMaxSumOfNodeValues3068_23 {
         for (long[] row : memo) {
             Arrays.fill(row, -1);
         }
+
         return maxSumOfNodes(0, 1, nums, k, memo);
+
     }
 
     private long maxSumOfNodes(int index, int isEven, int[] nums, int k,
