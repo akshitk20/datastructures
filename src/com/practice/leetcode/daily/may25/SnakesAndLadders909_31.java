@@ -26,10 +26,10 @@ public class SnakesAndLadders909_31 {
                     int move = num + i;
                     if (move > n * n) break;
 
-                    Pair<Integer, Integer> coordinates = getCoordinates(move);
+                    int[] coordinates = getCoordinates(move);
 
-                    int r = coordinates.getKey();
-                    int c = coordinates.getValue();
+                    int r = coordinates[0];
+                    int c = coordinates[1];
 
                     if (visited[r][c]) continue;
 
@@ -48,7 +48,7 @@ public class SnakesAndLadders909_31 {
         return -1;
     }
 
-    public Pair<Integer, Integer> getCoordinates(int move) {
+    public int[] getCoordinates(int move) {
         int r = (move-1) / n;
         int bottomR = (n-1) - r;
 
@@ -57,7 +57,7 @@ public class SnakesAndLadders909_31 {
         if ((n % 2 == 1 && bottomR % 2 == 1) || (n % 2 == 0 && bottomR % 2 == 0)) {
             c = (n-1) - c;
         }
-        return new Pair<>(bottomR, c);
+        return new int[]{bottomR, c};
 
 
     }
