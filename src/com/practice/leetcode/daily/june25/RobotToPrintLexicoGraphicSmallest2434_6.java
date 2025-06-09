@@ -1,6 +1,6 @@
 package com.practice.leetcode.daily.june25;
 
-import java.util.Stack;
+import java.util.*;
 
 public class RobotToPrintLexicoGraphicSmallest2434_6 {
     public String robotWithString(String s) {
@@ -8,6 +8,13 @@ public class RobotToPrintLexicoGraphicSmallest2434_6 {
         for (char c : s.toCharArray()) {
             cnt[c - 'a']++;
         }
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.entrySet().stream()
+                .sorted((a, b) -> b.getValue() - a.getValue())
+                .limit(2)
+                .skip(1)
+                .map(Map.Entry::getKey)
+                .findFirst();
 
         Stack<Character> stack = new Stack<>();
         StringBuilder res = new StringBuilder();
