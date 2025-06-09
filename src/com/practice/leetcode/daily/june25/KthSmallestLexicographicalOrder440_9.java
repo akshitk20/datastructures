@@ -22,4 +22,33 @@ public class KthSmallestLexicographicalOrder440_9 {
             solve(newNum, n, result);
         }
     }
+
+    public int findKthNumberOptimal(int n, int k) {
+        int curr = 1;
+        k-=1;
+        while (k > 0) {
+            int count = count(curr, curr+1, n);
+
+            if (count <= k) {
+                curr++;
+                k -= count; // skipping the element under current prefix
+            } else {
+                curr *= 10;
+                k -= 1;
+            }
+        }
+
+        return curr;
+    }
+
+    public int count(long curr, long next, int n) {
+        int count = 0;
+        while (curr <= n) {
+            count += (next-curr);
+            curr = curr * 10;
+            next = next * 10;
+            next = Math.min(next, (long) n+1);
+        }
+        return count;
+    }
 }
