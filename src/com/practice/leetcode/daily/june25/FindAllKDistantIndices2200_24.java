@@ -1,8 +1,6 @@
 package com.practice.leetcode.daily.june25;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class FindAllKDistantIndices2200_24 {
     public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
@@ -17,7 +15,8 @@ public class FindAllKDistantIndices2200_24 {
                 }
             }
         }
-
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        map.firstKey();
         Collections.sort(result);
         return result;
 
