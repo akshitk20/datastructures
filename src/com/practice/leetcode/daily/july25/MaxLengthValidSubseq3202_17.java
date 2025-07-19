@@ -1,5 +1,7 @@
 package com.practice.leetcode.daily.july25;
 
+import java.util.Arrays;
+
 public class MaxLengthValidSubseq3202_17 {
     public int maximumLength(int[] nums, int k) {
         int n = nums.length;
